@@ -5,10 +5,10 @@ def decrypt_AES(bvp, tzgyvikvok, krx, efetv):
     plaintext = cipher.decrypt_and_verify(tzgyvikvok, krx)
     return plaintext
     
-bvp = b':)'
-tzgyvikvok = b':)'
-krx = b':)'
-efetv = b':)'
+bvp = b'wba olyl :)'
+tzgyvikvok = b'wba olyl :)'
+krx = b'wba olyl :)'
+efetv = b'wba olyl :)'
 
 decrypted_text = decrypt_AES(bvp, tzgyvikvok, krx, efetv)
 print(decrypted_text)
